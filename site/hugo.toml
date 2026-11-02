@@ -22,10 +22,10 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "John Doe"
+author = "강윤서"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
-keywords = "blog,developer,personal"
+description = "컴퓨터 공학을 공부하며 진행한 프로젝트와 학습을 기록하는 포트폴리오"
+keywords = "컴퓨터공학, C언어, Linux, 프로그래밍"
 info = ["단순한 콘텐츠가 아닌 또 하나의 세계가 되는 게임을 만들고 싶습니다.", "오픈 월드 RPG 개발을 꿈꾸는 컴퓨터 공학과 2학년"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
