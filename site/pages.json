@@ -1,0 +1,25 @@
+{
+  "baseURL": "https://202513358-sys.github.io/mid1st/",
+  "enableGitInfo": false,
+  "themesDir": "themes",
+  "timeout": "120s",
+  "security": {
+    "exec": {
+      "allow": [
+        "^(dart-)?sass$",
+        "^go$",
+        "^git$",
+        "^node$",
+        "^postcss$",
+        "^tailwindcss$",
+        "^asciidoctor$"
+      ]
+    },
+    "allowContent": [
+      "^text/"
+    ]
+  },
+  "theme": [
+    "template"
+  ]
+}
