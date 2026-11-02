@@ -152,7 +152,7 @@ weight = 1
 url = "https://github.com/202513358-sys/"
 
 [[params.social]]
-name = "Gitlab"
+name = "Email"
 icon = "fa-solid fa-envelope fa-2x"
 weight = 2
 url = "mailto:202513358@jbnu.ac.kr"
