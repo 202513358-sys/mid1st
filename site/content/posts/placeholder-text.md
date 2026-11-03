@@ -1,11 +1,11 @@
 +++
-authors = ["Lone Coder"]
-title = "Placeholder Text"
-date = "2023-07-05"
-description = "Lorem Ipsum Dolor Si Amet"
+authors = ["강윤서"]
+title = "AI와 함께 배우는 문제 해결 과정"
+description = "C언어 기반 편의점 POS 프로그램을 개발하며 AI를 학습 도구로 활용한 경험과 배운 점을 기록합니"
 tags = [
-    "markdown",
-    "text",
+    "C언어",
+    "AI 활용",
+    "학습 기록",
 ]
 +++
 
