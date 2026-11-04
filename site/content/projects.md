@@ -3,4 +3,5 @@ title = "Projects"
 slug = "projects"
 +++
 
-Nothing to see here... Move along!
+## C언어 기반 편의점 POS프로그램
+리눅스프로그래밍 수업에서 C언어로 제작한 개인 프로젝트입니다. 편의점의 재고 관리, 상품 판매, 결제 금액 계산 등의 기능을 구현하며 수업에서 배운 내용을 실제 프로그램으로 연결했습니다.
