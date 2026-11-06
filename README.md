@@ -1,53 +1,12 @@
-<p align="center">
-  <p align="center">
-    <a href="https://themes.gohugo.io/hugo-coder/">
-      <img src="https://img.shields.io/badge/theme-hugo--coder-2b8cbe" alt="Hugo Theme Badge"">
-    </a>
-    <a href="https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.txt">
-      <img src="https://img.shields.io/github/license/luizdepra/hugo-coder.svg" alt="MIT License Badge">
-    </a>
-  </p>
+ 컴퓨터공학과 2학년 강윤서의 프로젝트와 학습 경험을 정리한 포트폴리오입니다. Hugo Coder 테마를 바탕으로 본문과 메뉴를 수정하고, 키보드 단축키 기능을 추가했습니다.
 
-  <p align="center">
-    <a href="https://github.com/luizdepra/hugo-coder">
-      <img src="images/logos/logotype-a.png" alt="Hugo Coder Logo" width="600px" height="184px">
-    </a>
-  </p>
-</p>
+ 공개 사이트 :  https://202513358-sys.github.io/mid1st/
+ GitHub 저장소 :  https://202513358-sys.github.io/mid1st/
 
-A simple and clean blog theme for [Hugo](https://gohugo.io/).
+ ## 1. 사이트 구성
+ - Home : 이름, 짧은 소개, 프로필 이미지, GitHub 및 이메일 링크
+ - About : 자기소개, 게임 개발 관심 이유, 사용 기술과 학습 목표
+ - Blog: AI를 활용한 문제 해결과 학습 경험
+ - Projects: C언어 기반 편의점 POS 프로그램의 목적, 구현 기능, 수행 과정, 소스 코드, 실행 결과, 배운 점과 개선 방향
+본문은 한국어로 작성하고 주요 메뉴 이름은 영어로 구성했으며 연락처는 Home의 GitHub 및 이메일 링크로 제공합니다.
 
-![](images/screenshot.png)
-
-## Live Demo
-
-See [here](https://hugo-coder.netlify.app/).
-
-## Quick Start
-
-1. Add the repository into your Hugo Project repository as a submodule, `git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder`.
-2. Configure your `hugo.toml`. You can either use [this minimal configuration](https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md#complete-example) as a base, or look for a complete explanation about all configurations [here](https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md). The [`hugo.toml`](https://github.com/luizdepra/hugo-coder/blob/master/exampleSite/hugo.toml) inside the [`exampleSite`](https://github.com/luizdepra/hugo-coder/tree/master/exampleSite) is also a good reference.
-3. Build your site with `hugo server` and see the result at `http://localhost:1313/`.
-
-## Documentation
-
-See the [`docs`](docs/home.md) folder.
-
-## License
-
-Coder is licensed under the [MIT license](https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.md).
-
-## Maintenance
-
-This theme is maintained by its author [Luiz de Prá](https://github.com/luizdepra) with the help from these awesome [contributors](CONTRIBUTORS.md).
-
-## Sponsoring
-
-If you like my project or it was useful for you, consider supporting its development. Just:
-
-<a href="https://www.buymeacoffee.com/luizdepra" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-## Special Thanks
-
--   Gleen McComb, for his great [article](https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/) about custom pagination.
--   All contributors, for every PR and Issue reported.
