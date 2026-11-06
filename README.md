@@ -21,8 +21,11 @@
 
 ## 3. 설치 및 빌드 방법
 Git이 설치된 환경에서 다음 명령으로 저장소를 내려받습니다.
+
 git clone https://github.com/202513358-sys/mid1st.git
+
 cd mid1st
+
 이후 빌드 명령은 저장소 최상위인 mid1st에서 실행합니다.
 
 [ 빌드 환경 ]
