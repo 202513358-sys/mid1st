@@ -51,7 +51,7 @@ customCSS = []
 customSCSS = []
 
 # Custom JS
-customJS = []
+customJS = ["js/shortcuts.js"]
 
 # Custom remote JS files
 customRemoteJS = []
