@@ -197,3 +197,14 @@ H·A·B·P 단축키와 ON/OFF 기능을 구현하는 JavaScript 코드 및 설�
 AI가 제안한 내용은 GitHub에서 직접 적용하고, Actions 로그와 공개 사이트의 실제 동작을 확인하며 수정했습니다.
 
 단축키 구현 과정에서는 스크립트가 저장소 최상위의 assets/js/에 있어 빌드에 실패했습니다. 이를 사이트 폴더 내부의 site/assets/js/로 이동한 뒤 다시 연결했습니다. 이후 단축키와 ON/OFF 동작을 확인하며 기능을 완성했습니다.
+
+## 10. 배포 후 확인 항목
+- Home의 이름·소개·프로필 이미지 표시
+- GitHub 및 이메일 링크 연결
+- About·Blog·Projects 메뉴 이동
+- Projects의 실행 이미지 표시
+- POS 소스 코드 ZIP 다운로드
+- H·A·B·P 단축키 이동
+- 단축키 ON/OFF 전환
+- Actions 빌드·배포 성공 여부
+
