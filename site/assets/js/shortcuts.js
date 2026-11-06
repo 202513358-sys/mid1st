@@ -20,7 +20,7 @@
 
     const help = document.createElement("span");
     help.textContent =
-      "단축키: h 홈 · a 소개 · b 블로그 · p 프로젝트 ";
+      "단축키: H 홈 · A 소개 · B 블로그 · P 프로젝트 ";
 
     const toggle = document.createElement("button");
     toggle.type = "button";
@@ -68,7 +68,7 @@
         target instanceof Element &&
         (
           target.closest(
-            "input, textarea, select, button, " +
+            "input, textarea, select, " +
             '[role="textbox"], [role="combobox"]'
           ) ||
           target.isContentEditable
