@@ -36,27 +36,21 @@ cd mid1st
 
 [ 빌드 준비 및 실행 ]
 저장소 최상위 폴더인 mid1st에서 다음 명령을 순서대로 실행합니다.
+
 python .github/pages_build.py --dependencies
 python .github/pages_build.py --build
+
 첫 번째 명령은 사이트를 만드는 데 필요한 도구와 패키지를 준비하고, 두 번째 명령은 사이트 파일을 생성합니다. 빌드 결과는 실행 환경의 public 폴더에 생성되며, GitHub Actions는 이 폴더의 파일을 GitHub Pages로 배포합니다.
 
 ## 4. 주요 파일과 수정 위치
 사이트 제목, 소개, 프로필 이미지 경로, 메뉴, SNS, 추가 스크립트 설정 : site/hugo.toml
 
-About 본문 : site/content/about.md
-
-Blog 본문 : site/content/posts/
-
-Projects 본문 : site/content/
-
-프로필 및 프로젝트 실행 이미지 : site/static/images/
-
-POS 프로그램 소스 코드 압축파일 : site/static/pos-source.zip
-
-페이지 이동 단축키 : site/assets/js/shortcuts.js
-
-빌드 스크립트 : .github/pages_build.py
-
-자동 배포 설정 : .github/workflows/
-
-테마 파일 : site/themes/template/
+- About 본문 : site/content/about.md
+- Blog 본문 : site/content/posts/
+- Projects 본문 : site/content/
+- 프로필 및 프로젝트 실행 이미지 : site/static/images/
+- POS 프로그램 소스 코드 압축파일 : site/static/pos-source.zip
+- 페이지 이동 단축키 : site/assets/js/shortcuts.js
+- 빌드 스크립트 : .github/pages_build.py
+- 자동 배포 설정 : .github/workflows/
+- 테마 파일 : site/themes/template/
