@@ -61,3 +61,25 @@ python .github/pages_build.py --build
 - 빌드 스크립트 : .github/pages_build.py
 - 자동 배포 설정 : .github/workflows/
 - 테마 파일 : site/themes/template/
+
+## 5. 수정 및 배포 방법
+본 프로젝트는 주로 GitHub 웹 편집 기능으로 수정했습니다.
+
+수정할 파일을 열고 편집합니다.
+
+변경 내용을 확인한 뒤 의미 있는 작업 단위로 커밋합니다.
+
+변경 사항을 main 브랜치에 반영합니다.
+
+저장소의 Actions 탭에서 해당 변경의 빌드·배포 결과를 확인합니다.
+
+실패하면 작업 로그의 오류 메시지를 확인하고 수정합니다.
+
+배포 성공 후 공개 사이트를 열어 실제 반영 여부를 확인합니다.
+
+Git Bash에서 수정 내용을 반영하는 경우에는 변경 파일을 확인한 뒤 커밋하고 main으로 푸시합니다.
+
+git status
+git add <수정한 파일 경로>
+git commit -m "변경 내용 설명"
+git push origin main
