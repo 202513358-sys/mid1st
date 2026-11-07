@@ -17,7 +17,7 @@
  - 자동 빌드·배포 : GitHub Actions
  - 수정 방식 : GitHub 웹 편집
  - 추가 기능 구현 : JavaScript
- - 빌드 스크립트 실행 : Python (버전 : 3.14)
+ - 빌드 스크립트 실행 : Python (버전 : 3.14.3)
 
 ## 3. 설치 및 빌드 방법
 Git이 설치된 환경에서 다음 명령으로 저장소를 내려받습니다.
@@ -34,7 +34,7 @@ cd mid1st
 - Python 3.12
 - Node.js 24
 - Go 1.27.1
-- Hugo Extended: 준비 과정에서 선택된 버전
+- Hugo Extended: 0.167.0
 - Dart Sass 1.105.0
 
 본 프로젝트에서 확인한 Actions 로그의 Hugo 버전은 v0.167.0+extended입니다.
@@ -53,8 +53,8 @@ python .github/pages_build.py --build
 사이트 제목, 소개, 프로필 이미지 경로, 메뉴, SNS, 추가 스크립트 설정 : site/hugo.toml
 
 - About 본문 : site/content/about.md
-- Blog 본문 : site/content/posts/
-- Projects 본문 : site/content/
+- Blog 본문 : site/content/posts/placeholder-text.md
+- Projects 본문 : site/content/projects.md
 - 프로필 및 프로젝트 실행 이미지 : site/static/images/
 - POS 프로그램 소스 코드 압축파일 : site/static/pos-source.zip
 - 페이지 이동 단축키 : site/assets/js/shortcuts.js
